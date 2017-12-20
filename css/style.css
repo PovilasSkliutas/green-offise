@@ -1,0 +1,45 @@
+/*normalize*/
+@import url("css/normalize.css");
+/*font*/
+
+/*style CSS*/
+body {
+background-image: url("img/fond.png");
+}
+.container {
+  min-width: 1024px;
+  width: 50%;
+  margin: 0 auto;
+}
+header {
+  background: #b8cb21;
+}
+nav.meniu {
+  float: right;
+  text-transform: uppercase;
+  color: #b8cb21;
+}
+nav.meniu::after {
+  clear: both;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.title {
+  font-family: "Oswald";
+  text-transform: uppercase;
+  color: #b8cb21;
+}
+.sub-title {
+  font-family: "Oswald";
+  color: #b8cb21;
+}
+.sub-title::first-letter {
+  text-transform: capitalize;
+}
+p.about {
+  float: left;
+}
